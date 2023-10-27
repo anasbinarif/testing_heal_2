@@ -55,7 +55,6 @@
             <img src="assets/images/logo.png" />
           </div>
           <form
-            action="https://anasbinarif.github.io/testing_heal_2/thank-you.html"
             method="post"
             id="login"
             autocomplete="off"
@@ -166,9 +165,7 @@
                 <p>Already registered <a href="#">Login</a></p>
               </div>
               <div class="col-12">
-                <button class="btn btn-primary" type="submit" name="signin">
-                  Register
-                </button>
+                <a class="btn btn-primary" href="/thank-you.html">Register</a>
               </div>
             </div>
           </form>
@@ -191,6 +188,11 @@
           show_eye.style.display = "block";
           hide_eye.style.display = "none";
         }
+      }
+
+      function handleSubmit() {
+        console.log("hello");
+        window.location.href = "/thank-you.html";
       }
     </script>
   </body>
