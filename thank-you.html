@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+
+    <title>Thank you - Self Healing Automation</title>
+
+    <style type="text/css">
+      body {
+        background: url("assets/images/comimgsoon-bg.png") no-repeat;
+        background-size: cover;
+      }
+        .login_oueter {
+          width: 560px;
+          max-width: 100%;
+          text-align: center;
+        }
+        .logo_outer{
+            text-align: center;
+        }
+        .logo_outer img{
+            width:220px;
+            margin-bottom: 50px;
+        }
+
+    </style>
+  </head>
+  <body>
+<div class="container-fluid">
+  <div class="row d-flex justify-content-center align-items-center m-0" style="height: 100vh;">
+    <div class="login_oueter">
+        <div class="col-md-12 logo_outer">
+            <img src="assets/images/welcome.png" >
+        </div>
+
+        <h1>Thank you for signing up!</h1>
+        <p>
+          Since you’re new here, why don’t you have a look at Self Healing Automation Getting Started Document?
+          It is the easiest way to get familiar with Self Healing Automation.</p>
+
+    </div>
+  </div>
+</div>
+
+
+<script>
+function password_show_hide() {
+  var x = document.getElementById("password");
+  var show_eye = document.getElementById("show_eye");
+  var hide_eye = document.getElementById("hide_eye");
+  hide_eye.classList.remove("d-none");
+  if (x.type === "password") {
+    x.type = "text";
+    show_eye.style.display = "none";
+    hide_eye.style.display = "block";
+  } else {
+    x.type = "password";
+    show_eye.style.display = "block";
+    hide_eye.style.display = "none";
+    
+  }
+}
+
+</script>
+  </body>
+</html>
